@@ -319,15 +319,15 @@ please preview your site before committing, and make sure to run
     statistical analysis. To interact with R, we use
     <a href="https://www.rstudio.com/">RStudio</a>.
   </p>
-{% comment %}
+
   <div>
     <ul class="nav nav-tabs nav-justified" role="tablist">
       <li role="presentation" class="active"><a data-os="windows" href="#rstats-windows" aria-controls="Windows" role="tab" data-toggle="tab">Windows</a></li>
       <li role="presentation"><a data-os="macos" href="#rstats-macos" aria-controls="MacOS" role="tab" data-toggle="tab">MacOS</a></li>
       <li role="presentation"><a data-os="linux" href="#rstats-linux" aria-controls="Linux" role="tab" data-toggle="tab">Linux</a></li>
     </ul>
-{% endcomment %}
-  <div class="tab-content">
+
+   <div class="tab-content">
       <article role="tabpanel" class="tab-pane active" id="rstats-windows">
         <a href="https://www.youtube.com/watch?v=q0PjTAylwoU">Video Tutorial</a>
         <p>
@@ -357,7 +357,7 @@ please preview your site before committing, and make sure to run
           You can download the binary files for your distribution
           from <a href="https://cran.r-project.org/index.html">CRAN</a>. Or
           you can use your package manager (e.g. for Debian/Ubuntu
-          run <code>sudo apt-get install r-base</code> and for Fedora run
+          run <code>sudo apt install r-base r-base-dev</code> and for Fedora run
           <code>sudo dnf install R</code>).  Also, please install the
           <a href="https://www.rstudio.com/products/rstudio/download/#download">RStudio IDE</a>.
         </p>
